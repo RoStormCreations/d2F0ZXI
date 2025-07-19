@@ -1,6 +1,5 @@
 local root = script.parent
-IMG = require(root.images)
-RSC = require(root.resources)
+local RSC = require(root.resources)
 local UILibrary = require(RSC.venyx)
 
 local Library = UILibrary.new("Water", 5013109572)
