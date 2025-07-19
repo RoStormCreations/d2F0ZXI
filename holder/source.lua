@@ -1,4 +1,4 @@
-local root = script
+local root = script.parent
 local images = require(root.images)
 local resources = require(root.resources)
 local UILibrary = require(resources.venyx)
