@@ -7,7 +7,7 @@ local Camera = game:GetService("Workspace").CurrentCamera
 local Mouse = LocalPlayer:GetMouse()
 
 local Root = script
-local resources = require(root.resources)
+local resources = require(Root.resources)
 local UILibrary = require(resources.venyx)
 
 local Library = UILibrary.new("Water", 5013109572)
